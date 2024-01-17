@@ -1,12 +1,16 @@
 import React, { Fragment } from 'react';
 import { Home } from './pages/home';
+import { ThemeProvider } from '@mui/material';
+import { LightTheme } from './themes/Light';
 
 
 function App() {
   return (
-    <Fragment>
-      <Home />
-    </Fragment>
+    <ThemeProvider theme={LightTheme}>
+      <Fragment>
+        <Home />
+      </Fragment>
+    </ThemeProvider>
   );
 }
 
