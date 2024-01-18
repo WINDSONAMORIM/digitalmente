@@ -41,14 +41,13 @@ export const AppBarDefault = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box
-            sx={{ height: "5vh", display: { xs: "none", md: "flex" }, mr: 1 }}
+            sx={{ height: "10vh", display: { xs: "none", md: "flex" }, mr: 1 }}
           >
             <img src={Logo} />
-            {/* <AdbIcon  /> */}
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -57,7 +56,7 @@ export const AppBarDefault = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="primary"
+              color="secondary"
             >
               <MenuIcon />
             </IconButton>
@@ -88,7 +87,7 @@ export const AppBarDefault = () => {
           </Box>
 
           <Box
-            sx={{ height: "5vh", width:"100%", display: { xs: "flex", md: "none" }, justifyContent:"center", mr: 1 }}
+            sx={{ height: "10vh", width:"100%", display: { xs: "flex", md: "none" }, justifyContent:"center", mr: 1 }}
           >
             <img src={Logo} />
           </Box>
