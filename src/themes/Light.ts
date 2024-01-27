@@ -1,4 +1,4 @@
-import { createTheme, CssBaseline } from "@mui/material";
+import { createTheme } from "@mui/material";
 
 export const LightTheme = createTheme({
   palette: {
@@ -14,6 +14,9 @@ export const LightTheme = createTheme({
     background: {
       default: "#ffffff",
     },
+  },
+  typography:{
+      fontFamily:'Roboto',
   },
   components: {
     MuiCssBaseline: {
