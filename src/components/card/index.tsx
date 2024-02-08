@@ -8,7 +8,7 @@ import ImageCard from '../../assets/imagens/Design-1024x768.png';
 
 export const CardDefault = () => {
   return (
-    <Card sx={{ maxWidth: "100%", m:1 }}>
+    <Card sx={{ maxWidth: "100%", mt: 10}}>
       <CardActionArea sx={{ display: "flex", flexDirection: {xs: "column-reverse", md: "row-reverse"} }}>
         <CardMedia
         height={500}

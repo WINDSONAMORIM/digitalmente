@@ -15,8 +15,8 @@ export const LightTheme = createTheme({
       default: "#ffffff",
     },
   },
-  typography:{
-      fontFamily:'Roboto',
+  typography: {
+    fontFamily: "Roboto Condensed",
   },
   components: {
     MuiCssBaseline: {

@@ -11,7 +11,6 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 import Logo from "../../assets/imagens/logo_white2-1024x576.png";
 
 const pages = ["Sobre Nós", "Nossos Serviços", "Mais para você", "Contato", "Blog"];
