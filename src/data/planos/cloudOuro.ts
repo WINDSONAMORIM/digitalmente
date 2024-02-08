@@ -1,0 +1,15 @@
+export const cloudOuro = [
+  "2 Gg",
+  "1 CPU",
+  "2 Gg Ram",
+  "50 Gg SSD",
+  "1 Domínio ",
+  "2 Subdomínio",
+  "15 Contas de E-mail ",
+  "Banco de Dados ilimitado",
+  "100.000 Visualizações por mês",
+  "Site e loja virtual WordPress",
+  "Construtor Elementor",
+  "Gerenciador de Conteúdos",
+  "Atualização constante",
+];
